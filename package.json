@@ -1,9 +1,8 @@
 {
-  "name": "website",
+  "name": "my-vite-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "Aman Sharma",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,7 +19,8 @@
     "react-router-dom": "^6.24.0",
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

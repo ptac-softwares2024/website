@@ -20,7 +20,7 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className='w-full'>
+    <div className='w-full fade-in'>
       <Navbar />
       <ImageCarousel />
       <WhyChooseUs />

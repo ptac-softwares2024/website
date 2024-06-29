@@ -1,13 +1,18 @@
-// App.jsx
-import { Route, Routes } from 'react-router-dom';
-import LandingPage from './Landing-Page/LandingPage';
-import './index.css'
+// src/App.jsx
+import LandingPage from './Landing-Page/LandingPage'
+import LoginPage from './Landing-Page/LoginTest'
+import NotFoundPage from './Landing-Page/NotFoundPage'
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-    </Routes>
+    <div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </div>
   );
 }
 
