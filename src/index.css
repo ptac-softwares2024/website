@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: "Arial"
+    ui-sans-serif
+    system-ui
+    sans-serif
+    "Apple Color Emoji"
+    "Segoe UI Emoji"
+    "Segoe UI Symbol"
+    "Noto Color Emoji"; /* Change "Arial" to your preferred font family */
+  }
+
+/* Define scrollbar styles */
+body::-webkit-scrollbar {
+  width: 9px; /* Width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #4FA9A7; /* Color of the scrollbar thumb */
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #000; /* Color of the scrollbar thumb on hover */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
